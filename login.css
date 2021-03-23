@@ -1,0 +1,70 @@
+body{
+        
+        justify-content: center;
+        align-items: center;
+        margin-top:5%;
+        background:#98bf64;
+      
+      }
+      .form{
+        width:100%;
+        max-width: 330px;
+        padding: 15px;
+        margin:auto;
+        text-align: center;
+
+      }
+      .form input.form-control{
+        margin: 10px 0px;
+
+      }
+    h1{
+      color: red;
+      font-size:40px;
+      font-family: 'Abril Fatface', cursive;
+            font-family: 'Fredoka One', cursive;
+    }
+ }
+    .g{
+      color:white;
+      font-size:35px;
+      font-family: 'Abril Fatface', cursive;
+            font-family: 'Fredoka One', cursive;
+            font-family: 'Squada One', cursive;
+    }
+    h2{
+      color:black;
+      font-family: 'Abril Fatface', cursive;
+            font-family: 'Fredoka One', cursive;
+            font-family: 'Squada One', cursive;
+            font-size:75px;
+    }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      
+/* fin de la zona para más de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {
+  body {
+    font-size:120%;
+    /* ampliamos más aún los textos si mide más de 1200px */
+  }
+}
+
+  @media (min-width: 568px) {
+        .bd-placeholder-img-md {
+          font-size: 5.5rem;
+        }
+        img{
+          width: 150px;
+          margin-right: 5%;
+        }
+      }
+      @media (width: 881px) {
+        .bd-placeholder-img-md {
+          font-size: 5.5rem;
+        }
+      }
+    }

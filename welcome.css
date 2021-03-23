@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+h2:hover{
+      background:#c6e5b1;
+      color: black;
+    }
+h2{
+	font-size: 55px;
+	font-family: 'Abril Fatface', cursive;
+}
+h1{
+	font-family: 'Chango', cursive;
+	font-size: 65px;
+	color:#466d1d;
+}
+a:hover{
+	background: black;
+	color:#ffff;
+}
+
+/* fin de la zona para más de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {
+	body {
+		font-size:120%;
+		/* ampliamos más aún los textos si mide más de 1200px */
+	}
+}
+
+	@media (min-width: 568px) {
+        .bd-placeholder-img-md {
+          font-size: 5.5rem;
+        }
+        img{
+        	width: 150px;
+        	margin-right: 5%;
+        }
+      }
+      @media (width: 881px) {
+        .bd-placeholder-img-md {
+          font-size: 5.5rem;
+        }
+      }
+    }
